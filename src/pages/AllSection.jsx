@@ -458,7 +458,7 @@ const AllSection = () => {
               varius. Facilisis eget cras sit semper sit enim. Turpis aliquet at
               ac eu donec ut.{" "}
             </p>
-            <div className="input_width d-flex align-items-center gap-3 mt-lg-4 mt-3">
+            <div className="input_width d-flex align-items-center flex-sm-row flex-column justify-content-sm-start justify-content-center  gap-3 mt-lg-4 mt-3">
               <input
                 type="text"
                 placeholder="Type here"

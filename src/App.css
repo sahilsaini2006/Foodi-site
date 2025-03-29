@@ -444,6 +444,22 @@ input:is(:-webkit-autofill, :autofill) {
   .mobile2_translate {
     transform: translateY(8%) scaleY(1);
   }
+  .subscribe_1 {
+    background-color: #d68240;
+    color: #ffffff;
+    padding: 13px 26px;
+    border-radius: 4px;
+    transition: 500ms;
+    border: none;
+    border: 1px solid #d68240;
+    line-height: 28px;
+  }
+  .cutting_vegtable {
+    background-image: url(/src/assets/img/png/cutingVegtableIMg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-block: 42px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -546,6 +562,22 @@ input:is(:-webkit-autofill, :autofill) {
   .mobile2_translate {
     transform: translateY(8%) scaleY(0.9);
   }
+  .subscribe_1 {
+    background-color: #d68240;
+    color: #ffffff;
+    padding: 13px 26px;
+    border-radius: 4px;
+    transition: 500ms;
+    border: none;
+    border: 1px solid #d68240;
+    line-height: 28px;
+  }
+  .cutting_vegtable {
+    background-image: url(/src/assets/img/png/cutingVegtableIMg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-block: 56px;
+  }
 }
 @media (min-width: 768px) {
   /* -------------- width / height --------------- */
@@ -629,11 +661,17 @@ input:is(:-webkit-autofill, :autofill) {
     transform: translateX(-50%);
   }
   .mobile1_translate {
-  transform: translateY(-8%) scaleY(1.09);
-}
-.mobile2_translate {
-  transform: translateY(8%) scaleY(1.09);
-}
+    transform: translateY(-8%) scaleY(1.09);
+  }
+  .mobile2_translate {
+    transform: translateY(8%) scaleY(1.09);
+  }
+  .cutting_vegtable {
+    background-image: url(/src/assets/img/png/cutingVegtableIMg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-block: 83px;
+  }
 }
 @media (min-width: 992px) {
   /* -------------- width / height --------------- */
@@ -704,6 +742,12 @@ input:is(:-webkit-autofill, :autofill) {
   .mobile2_translate {
     transform: translateY(8%) scaleY(1.09);
   }
+  .cutting_vegtable {
+    background-image: url(/src/assets/img/png/cutingVegtableIMg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-block: 83px;
+  }
 }
 @media (min-width: 1200px) {
   /* -------------- width / height --------------- */
@@ -761,5 +805,11 @@ input:is(:-webkit-autofill, :autofill) {
   }
   .mobile2_translate {
     transform: translateY(8%) scaleY(1.09);
+  }
+  .cutting_vegtable {
+    background-image: url(/src/assets/img/png/cutingVegtableIMg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-block: 83px;
   }
 }
