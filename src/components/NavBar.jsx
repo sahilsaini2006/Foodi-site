@@ -5,6 +5,12 @@ import logoImg from "../assets/img/svg/logoImg.svg";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  if(isOpen) {
+    document.body.style.overflow = "hidden";
+  }
+  else {
+    document.body.style.overflow = "auto";
+  }
 
   return (
     <>
