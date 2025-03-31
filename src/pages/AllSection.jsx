@@ -103,19 +103,19 @@ const AllSection = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-4 col-sm-6 col-12 mt-sm-0 mt-3">
+            <div className="col-md-4 col-sm-6 col-12 mt-sm-0 mt-3 pt-sm-0 pt-2">
               <div className="h-100 d-flex justify-content-between align-items-center flex-column text-center">
                 <img src={beansImg} alt="beansImg" />
-                <p className="fs_xl fw-semibold   mt-lg-5 mt-md-4 mt-3 text-white">
+                <p className="fs_xl fw-semibold  mt-lg-5 mt-md-4 mt-2 pt-sm-0 pt-1 text-white">
                   ALWAYS QUALITY BEANS
                 </p>
-                <p className="fs_md fw-medium text_dgray mt-lg-4 mt-md-2 mt-sm-3 mt-2 w_75">
+                <p className="fs_md fw-medium text_dgray mt-lg-4 mt-md-2 mt-sm-3 mt-2  w_75">
                   Lorem ipsum dolor sit amet consectetur. Felis eget sit sit
                   scelerisque vestibulum. Urna faucibus amet massa lacus lorem.
                 </p>
               </div>
             </div>
-            <div className="col-md-4 col-sm-6 col-12 mt-md-0 mt-3 ">
+            <div className="col-md-4 col-sm-6 col-12 mt-md-0 mt-4 pt-md-0 pt-2 ">
               <div className="h-100 d-flex justify-content-between align-items-center flex-column text-center">
                 <img src={cookImg} alt="cookImg" />
                 <p className="fs_xl fw-semibold   mt-lg-5 mt-md-4 mt-3 text-white">

@@ -6,7 +6,7 @@ import instagramImg from "../assets/img/svg/instagramImg.svg";
 import linkedinImg from "../assets/img/svg/linkedinImg.svg";
 
 const Footer = () => {
-  const presentYear=new Date().getFullYear()
+  const presentYear = new Date().getFullYear();
   console.log(presentYear);
   return (
     <>
@@ -49,30 +49,17 @@ const Footer = () => {
               <p className="fs_md fw-medium text-white px-2">
                 Opening Restaurenta
               </p>
-              <div className="mt-3">
-                <a
-                  href="./"
-                  className="fs_sm fw-medium text_dgray border_effect d-inline-block"
-                >
-                  Sa - We: 09 :00am - 10:00pm
-                </a>
-              </div>
-              <div>
-                <a
-                  href="./"
-                  className="fs_sm fw-medium text_dgray border_effect d-inline-block"
-                >
-                  Thu - We: 09 :00am - 10:00pm
-                </a>
-              </div>
-              <div>
-                <a
-                  href="./"
-                  className="fs_sm fw-medium text_dgray border_effect d-inline-block"
-                >
-                  Friday Closed
-                </a>
-              </div>
+              <p className="fs_sm fw-medium text_dgray  mt-3 pt-2">
+                Sa - We: 09 :00am - 10:00pm
+              </p>
+
+              <p className="fs_sm fw-medium text_dgray mt-3">
+                Thu - We: 09 :00am - 10:00pm
+              </p>
+
+              <p className="fs_sm fw-medium text_dgray mt-3">
+                Friday Closed
+              </p>
             </div>
 
             <div className="col-xl-2 col-md-4 col-sm-6 col-12 mt-xl-0 mt-4 pt-xl-0 pt-sm-3 text-md-start text-center">
@@ -122,12 +109,9 @@ const Footer = () => {
             <div className="col-xl-3 col-md-4 col-sm-8 col-12 mt-xl-0 mt-4 pt-xl-0 pt-md-3  text-md-start text-center">
               <p className="fs_md fw-medium text-white px-2">Contact Us</p>
               <div className="mt-3 w_57">
-                <a
-                  href="./"
-                  className="fs_sm fw-medium text_dgray  d-inline-block"
-                >
+                <p className="fs_sm fw-medium text_dgray d-inline-block">
                   543 Country Club Ave, NC 27587, London, UK +1257 6541120
-                </a>
+                </p>
               </div>
 
               <div className="bg-white w-100 rounded_8 d-flex align-items-center input_email w-100 mt-4">
@@ -136,7 +120,7 @@ const Footer = () => {
                   name="email"
                   id="email"
                   placeholder="Email"
-                  className="fs_lg fw-medium text_darkGray w-100 bg-white"
+                  className="fs_lg fw-medium text_darkGray w-100 bg-white pe-3"
                   required
                 />
                 <input
@@ -150,18 +134,15 @@ const Footer = () => {
 
           <div className="d-flex align-items-center justify-content-sm-between justify-content-center flex-sm-row flex-column border_2 mt-5 pt-md-4 pt-3">
             <div className="mt-3">
-              <a
-                href="./"
-                className="fs_sm fw-medium text_dgray d-inline-block"
-              >
+              <p className="fs_sm fw-medium text_dgray">
                 ©{presentYear} ARR, All right reserved
-              </a>
+              </p>
             </div>
             <div className="d-flex align-items-center mt-sm-0 mt-3">
               <div>
                 <a
                   href="./"
-                  className="fs_sm fw-medium text_dgray d-inline-block"
+                  className="fs_sm fw-medium text_dgray d-inline-block border_effect p-0"
                 >
                   Privacy Policy
                 </a>
@@ -169,7 +150,7 @@ const Footer = () => {
               <div className="ms-sm-4 ms-2 ps-2">
                 <a
                   href="./"
-                  className="fs_sm fw-medium text_dgray d-inline-block"
+                  className="fs_sm fw-medium text_dgray d-inline-block border_effect p-0"
                 >
                   Terms of Use
                 </a>

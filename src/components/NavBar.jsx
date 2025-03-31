@@ -5,10 +5,9 @@ import logoImg from "../assets/img/svg/logoImg.svg";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  if(isOpen) {
+  if (isOpen) {
     document.body.style.overflow = "hidden";
-  }
-  else {
+  } else {
     document.body.style.overflow = "auto";
   }
 
@@ -24,7 +23,7 @@ const NavBar = () => {
 
           <nav className="order-md-0 order-3">
             <ul
-              className={`align-items-md-center gap-xl-5 d-flex gap-lg-4 pe-4 hamburger_menu 
+              className={`align-items-md-center gap-xl-5 d-flex gap-lg-4 hamburger_menu 
                 ${!isOpen ? "hideSideBar" : "showSidebar"}
               `}
             >
@@ -84,6 +83,11 @@ const NavBar = () => {
                   Shop
                 </Link>
               </li>
+              <li className="d-md-none d-block">
+                <button className="fs_md fw-medium  reservation_btn">
+                  RESERVATION
+                </button>
+              </li>
               <li className="position-absolute top-0 end-0 pe-4 pt-4">
                 <button
                   className=" d-md-none bg-transparent text-white border-0"
@@ -104,7 +108,7 @@ const NavBar = () => {
             </div>
           </nav>
 
-          <div className="order-md-0 order-2">
+          <div className="order-md-0 order-2 d-md-block d-none">
             <button className="fs_md fw-medium  reservation_btn">
               RESERVATION
             </button>
