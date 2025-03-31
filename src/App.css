@@ -426,8 +426,9 @@ input:is(:-webkit-autofill, :autofill) {
   }
   .bg_workingHours {
     background-image: url(./assets/img/png/workingHoursImg.png);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: top center;
     padding-block: 40px;
   }
   .box_bgcolor {
@@ -456,9 +457,23 @@ input:is(:-webkit-autofill, :autofill) {
   }
   .cutting_vegtable {
     background-image: url(/src/assets/img/png/cutingVegtableIMg.png);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-block: 42px;
+  }
+  .bg_img {
+    background-image: url(./assets/img/png/backgroundImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100% !important ;
+  }
+    .bg_vegtableImg {
+    background-image: url(/src/assets/img/png/vegtableImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+
   }
 }
 
@@ -477,6 +492,7 @@ input:is(:-webkit-autofill, :autofill) {
     top: 0%;
     transition-duration: 900ms;
   }
+
 }
 @media (min-width: 576px) {
   /* -------------- width / height --------------- */
@@ -574,9 +590,21 @@ input:is(:-webkit-autofill, :autofill) {
   }
   .cutting_vegtable {
     background-image: url(/src/assets/img/png/cutingVegtableIMg.png);
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-block: 56px;
+  }
+  .bg_img {
+    background-image: url(./assets/img/png/backgroundImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% !important ;
+  }
+  .bg_vegtableImg {
+    background-image: url(/src/assets/img/png/vegtableImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 @media (min-width: 768px) {
@@ -672,6 +700,17 @@ input:is(:-webkit-autofill, :autofill) {
     background-repeat: no-repeat;
     padding-block: 83px;
   }
+  .bg_img {
+    background-image: url(./assets/img/png/backgroundImg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100% !important ;
+  }
+  .bg_vegtableImg {
+    background-image: url(/src/assets/img/png/vegtableImg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 }
 @media (min-width: 992px) {
   /* -------------- width / height --------------- */
